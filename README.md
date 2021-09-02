@@ -1,0 +1,2 @@
+# QuadradoM-gico
+Quadrado Mágico
