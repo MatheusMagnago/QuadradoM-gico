@@ -27,8 +27,8 @@ td {
 
 input {
     border: none;
-    width: 3em;
-    height: 3em;
+    width: 5em;
+    height: 5em;
     text-align: center;
     font-size: larger;
 }
@@ -51,6 +51,3 @@ input {
     color: green;
     border: solid 2px green;
 }
-
-
-
