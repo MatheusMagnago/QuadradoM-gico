@@ -6,10 +6,6 @@ for (let i=0; i<matriz.length; i++) {
 }
 const somaNumeros = 15;
 
-document.addEventListener('DOMContentLoaded', () => {
-    insereTabela();
-});
-
 function restart() {
     const botaor = document.createElement('button');
     botaor.innerHTML = "RESTART"
@@ -20,6 +16,10 @@ function restart() {
 function restartt() {
     window.addEventListener("click", location.reload())
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    insereTabela();
+});
 
 function insereTabela() {
     const tabela = document.createElement('table');
