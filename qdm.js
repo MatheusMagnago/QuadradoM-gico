@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", restart);
 const ordem = 3;
 const matriz = Array(ordem);
 for (let i=0; i<matriz.length; i++) {
@@ -8,6 +9,17 @@ const somaNumeros = 15;
 document.addEventListener('DOMContentLoaded', () => {
     insereTabela();
 });
+
+function restart() {
+    const botaor = document.createElement('button');
+    botaor.innerHTML = "RESTART"
+    document.body.append(botaor);
+    botaor.addEventListener("click", restartt);
+}
+
+function restartt() {
+    window.addEventListener("click", location.reload())
+}
 
 function insereTabela() {
     const tabela = document.createElement('table');
